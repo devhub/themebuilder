@@ -2,6 +2,16 @@
 
 Example themes for the DevHub platform
 
+Included in this doc:
+
+* Creating a new theme
+* The Theme Editor
+* Required includes
+* Templating variables
+* Creating a `settings.html`
+
+***
+
 ## Creating a new theme
 
 * Browse to a base theme under "Themes & Colors" and change to it
