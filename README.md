@@ -110,4 +110,4 @@ Here is an example of its usage in the `style.css`
 
 ### More examples
 
-You can see more examples of field types you could have within your `settings.html` here: 
+You can see more examples of field types you could have within your `settings.html` here: https://github.com/devhub/themebuilder/tree/master/examples/themebuilder_theme
