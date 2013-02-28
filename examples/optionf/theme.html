@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport"
+    content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="shortcut icon" href="{{ site.favicon }}">
+  <link rel="alternate" type="application/atom+xml" href="{{ site.feed }}">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+  {% include "themes/header_content.html" %}
+</head>
+
+<body>
+
+<div id="container" class="cf">
+
+  <header id="header" class="cf">
+
+    <div class="business-info cf">
+      <div class="address">
+        {% if vertical.street %}{{ vertical.street }}, {% endif %}
+        {% if vertical.city %}{{ vertical.city }}, {% endif %}
+        {% if vertical.state %}{{ vertical.state }}, {% endif %}
+        {% if vertical.postal_code %}{{ vertical.postal_code }}{% endif %}
+      </div>
+      {% if vertical.phone %}<div class="phone-number">{{ vertical.phone }}</div>{% endif %}
+    </div>
+
+    <div class="header-inner cf">
+    
+      <div class="logo-wrapper">
+        <span id="sitelogo">
+          {{ site.logo }}
+        </span>
+      </div>
+
+      <nav id="nav">
+        <div class="nav-inner">
+          <ul>
+              {% for item in linklists.mainmenu %}
+              <li{% if page.path == item.link %} class="selected"{% endif %}><a href="{{ item.link }}" title="{{ item.name|safe }}">{{ item.name|safe }}</a></li>
+              {% endfor %}
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <div id="body">
+
+    <div id="hero-unit">
+      {% if settings.show_hero == 'all' or (settings.show_hero == 'home' and current_path == '/') %}
+      <div id="hero">
+          <img src="{% if settings.custom_hero %}{{ settings.custom_hero }}{% else %}/img/upload/waves-925.png{% endif %}">
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="body-inner">
+        {% include "themes/layout_content.html" %}
+        <div class="clear"></div>
+    </div>
+
+  </div>
+
+</div>
+
+
+  <footer id="footer">
+    <div class="footer-inner cf">
+      <ul class="footer-nav">
+        {% for item in linklists.mainmenu %}
+          <li><a href="{{ item.link }}" title="{{ item.name|safe }}">{{ item.name|safe }}</a></li>
+        {% endfor %}
+      </ul>
+      <p class="footer-contact">
+          <strong>{{ site_title }}</strong><br>
+          {{ vertical.street }}, {{ vertical.city }}, {{ vertical.state }}, {{ vertical.postal_code }}<br>
+          {{ vertical.phone }}
+      </p>
+    </div>
+  </footer>
+
+<!--[if lt IE 7 ]>
+    <script src="/static/dhplatform/boilerplate/js/dd_belatedpng.js?v=1"></script>
+<![endif]-->
+
+{% include "themes/footer_content.html" %}
+</body>
+</html>
