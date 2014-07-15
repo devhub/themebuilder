@@ -4,20 +4,10 @@ Example themes for the DevHub platform
 
 Included in this doc:
 
-* Creating a new theme
 * The Theme Editor
 * Required includes
 * Templating variables
 * Creating a `settings.html`
-
-***
-
-## Creating a new theme
-
-* Browse to a base theme under "Themes & Colors" and change to it
-* Click on "Edit HTML/CSS"
-
-This should now create a new copy of that theme ("Custom Theme") that can be edited without effecting the original theme. You can continue to customize the theme HTML, CSS and settings until the theme is complete.
 
 ***
 
