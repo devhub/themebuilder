@@ -38,7 +38,7 @@ We pretty much have 3 different layout configurations for each of the main eleme
 
 ## Margin Controls
 
-Each of the elements stack on top of each other. They each have a "Margin Top" control that can be used to set the spacing between each of the main elements. Using these controls you can add more breathing room to your layout.
+Each of the main elements stack on top of each other. They each have a "Margin Top" control that can be used to set the spacing between each of them. Using these controls you can add more breathing room to your layout.
 
 ![Master Theme Margins](https://cloud.githubusercontent.com/assets/1208/3831493/2e2907fa-1d94-11e4-87da-55fe1292d3a5.png)
 
