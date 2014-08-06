@@ -36,6 +36,12 @@ We pretty much have 3 different layout configurations for each of the main eleme
  * This element stretches 100% of the width of the page
  * The "Site Width" setting is ignored here
 
+## Margin Controls
+
+Each of the elements stack on top of each other. They each have a "Margin Top" control that can be used to set the spacing between each of the main elements. Using these controls you can add more breathing room to your layout.
+
+![Master Theme Margins](https://cloud.githubusercontent.com/assets/1208/3831493/2e2907fa-1d94-11e4-87da-55fe1292d3a5.png)
+
 ## Requesting New Master Theme Features
 
 As you add custom CSS to style various parts of the sites, if there are particular things you do frequently (i.e. adding a background image to the header), feel free to let our team know so we can make sure to add that option to our list of features to add to the Master Theme.
