@@ -1,21 +1,3 @@
-## Setting Site Widths with Custom CSS
-
-Previously a lot of the themes had set widths that were not configurable within the style settings. This required the production team to write custom CSS to set widths on the header/body. Now with the Master Theme, it has a "Site Width" option within the style controls. This should be used in preference of the custom CSS, as it will correctly handle the responsive styles for you on the mobile views.
-
-## Reseting Static Widths in Responsive
-
-If you decide to set static widths on elements within the navigation, content area, or header using custom CSS, you need to make sure that you also add responsive styles to set these back to "width:auto" or "width:100%" on the mobile view.
-
-Here is the CSS media query we normally use for mobile responsive styling:
-
-	@media only screen and (max-width: 700px) {...}
-
-## Learning the DOM
-
-The Master Theme and future themes that will be created based on the Master Theme all share a common codebase as it relates to the HTML structure of the main elements (header, footer, body, etc)
-
-After you gain experience working and styling the Master Theme, you will be able to understand which style controls control which elements, and which CSS selectors to use to accomplish particular custom CSS.
-
 ## Layout Options
 
 We pretty much have 3 different layout configurations for each of the main elements (Header, Body, Footer, Slider)
@@ -53,6 +35,24 @@ Examples of ignored controls:
 * "Center Logo" is ignored if the Header Layout is set to any "Floated Left" or "Floated Right" option
 * "Navigation Alignment" is ignored if the Header Layout is set to any "Floated Left" or "Floated Right" option
 * "Site Width" is ignored on any element set to a "Fluid" layout option
+
+## Setting Site Widths with Custom CSS
+
+Previously a lot of the themes had set widths that were not configurable within the style settings. This required the production team to write custom CSS to set widths on the header/body. Now with the Master Theme, it has a "Site Width" option within the style controls. This should be used in preference of the custom CSS, as it will correctly handle the responsive styles for you on the mobile views.
+
+## Reseting Static Widths in Responsive
+
+If you decide to set static widths on elements within the navigation, content area, or header using custom CSS, you need to make sure that you also add responsive styles to set these back to "width:auto" or "width:100%" on the mobile view.
+
+Here is the CSS media query we normally use for mobile responsive styling:
+
+	@media only screen and (max-width: 700px) {...}
+
+## Learning the DOM
+
+The Master Theme and future themes that will be created based on the Master Theme all share a common codebase as it relates to the HTML structure of the main elements (header, footer, body, etc)
+
+After you gain experience working and styling the Master Theme, you will be able to understand which style controls control which elements, and which CSS selectors to use to accomplish particular custom CSS.
 
 ## Requesting New Master Theme Features
 
