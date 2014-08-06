@@ -42,6 +42,8 @@ Each of the main elements stack on top of each other. They each have a "Margin T
 
 ![Master Theme Margins](https://cloud.githubusercontent.com/assets/1208/3831493/2e2907fa-1d94-11e4-87da-55fe1292d3a5.png)
 
+*Note: the example above is showing the Static Layout option for each of the elements. Adding margins will allow the Site's background color or image to show through.*
+
 ## Requesting New Master Theme Features
 
 As you add custom CSS to style various parts of the sites, if there are particular things you do frequently (i.e. adding a background image to the header), feel free to let our team know so we can make sure to add that option to our list of features to add to the Master Theme.
