@@ -20,6 +20,8 @@ After you gain experience working and styling the Master Theme, you will be able
 
 We pretty much have 3 different layout configurations for each of the main elements (Header, Body, Footer, Slider)
 
+![Master Theme Layouts](https://cloud.githubusercontent.com/assets/1208/3831373/cfd1470e-1d92-11e4-9486-86632bc39199.png)
+
 * Static
  * More of a traditional website feel
  * Static width element that is centered
