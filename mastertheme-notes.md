@@ -44,6 +44,16 @@ Each of the main elements stack on top of each other. They each have a "Margin T
 
 *Note: the example above is showing the Static Layout option for each of the elements. Adding margins will allow the Site's background color or image to show through.*
 
+## Ignored Controls
+
+The Master Theme will show all controls that are available within it. Some of these controls are conditional, meaning that in configurations of some controls, other controls are ignored. So if you are working within the Master Theme and come into an issue where a particular control is not working, check out the list below of documented cases of this, otherwise feel free to reach our to our support team.
+
+Examples of ignored controls:
+
+* "Center Logo" is ignored if the Header Layout is set to any "Floated Left" or "Floated Right" option
+* "Navigation Alignment" is ignored if the Header Layout is set to any "Floated Left" or "Floated Right" option
+* "Site Width" is ignored on any element set to a "Fluid" layout option
+
 ## Requesting New Master Theme Features
 
 As you add custom CSS to style various parts of the sites, if there are particular things you do frequently (i.e. adding a background image to the header), feel free to let our team know so we can make sure to add that option to our list of features to add to the Master Theme.
